@@ -16,3 +16,5 @@
 <p>Agora troque o nome das classes de dentro da seu novo estilo para a que você botou na div.</p>
 <p>Agora use um <code>&lt;link rel="stylesheet" href="css/suaclass.css"&gt;</code> para declarar o seu arquivo no HTML.</p>
 <p>Pronto agora salve e já está foi criado a sua box.</p>
+
+<p>Depois veja seu perfil <a href="https://gustavoliveira94.github.io/contribuicao-playcode/">Aqui</a></p>
