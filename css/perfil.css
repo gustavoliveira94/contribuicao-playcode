@@ -1,0 +1,47 @@
+.meuperfil {
+    max-width: 195px;
+    height: 200px;
+    width: 100%;
+    background-image: url('../imagem/gustavo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    font-size: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    transition:ease-in-out 1s;
+}
+
+.meuperfil:first-of-type {
+    margin: 0;
+}
+
+.meuperfil:hover {    
+    transition:ease-in-out 0.5s;
+    background-image: url('../imagem/github.png');
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+@media screen and (min-width: 375px){
+    
+    .meuperfil {
+        max-width: 195px;
+        min-width: 195px;
+    }
+
+    .meuperfil:first-of-type {
+        padding: 
+        margin: 50px 0 0 0;
+    }
+
+    .meuperfil:last-of-type {
+        margin: 0 0 50px 0;
+    }
+
+}
